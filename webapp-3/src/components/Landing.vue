@@ -1,22 +1,15 @@
 <template>
-  <v-container fluid>
-    <v-layout row wrap>
-      <v-flex xs12 text-xs-center mt-5>
-        <h1>COE MANGA</h1>
-      </v-flex>
-      <v-flex xs12 sm6 offset-sm3 mt-3>
-        <blockquote class="blockquote text-xs-center">
-          ลงชื่อเข้าใช้แล้วมาสนุกไปกับการ์ตูนของชาว CoE กันเลย <br>
-        </blockquote>
-      </v-flex>
-      <v-flex xs12 sm6 offset-sm3 mt-3 class="text-xs-center" mt-5>
-        <v-btn color="primary" to="/signup">Sign Up</v-btn>
-        <v-btn to="/signin">Sign In</v-btn>
-      </v-flex>
+  <v-app>
+    <v-layout align-center justify-center>
+      <div id="welcome">
+        <h1 id="maintitle2">Welcome to COEmanga!</h1>
+      </div>
     </v-layout>
-  </v-container>
+  </v-app>
 </template>
 
 <script>
 export default {}
 </script>
+<style>
+</style>

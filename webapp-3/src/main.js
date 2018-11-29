@@ -7,6 +7,7 @@ import { store } from './store'
 import firebase from 'firebase'
 import 'firebase/firestore'
 import VueFire from 'vuefire'
+/* eslint-disable */
 
 
 Vue.use(VueFire)
@@ -17,7 +18,7 @@ firebase.initializeApp({
   databaseURL: 'https://webapp-27fae.firebaseio.com',
   projectId: 'webapp-27fae'
 })
-
+/* eslint-disable */
 
 Vue.config.productionTip = false
 

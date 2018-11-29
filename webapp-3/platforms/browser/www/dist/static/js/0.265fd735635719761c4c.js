@@ -1,0 +1,2 @@
+webpackJsonp([0],{X4if:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var i={render:function(){var t=this.$createElement,e=this._self._c||t;return e("v-app",[e("v-layout",{attrs:{"align-center":"","justify-center":""}},[e("div",{attrs:{id:"welcome"}},[e("h1",{attrs:{id:"maintitle2"}},[this._v("Welcome to COEmanga!")])])])],1)},staticRenderFns:[]};var r=n("VU/8")({},i,!1,function(t){n("jkRl")},null,null);e.default=r.exports},jkRl:function(t,e){}});
+//# sourceMappingURL=0.265fd735635719761c4c.js.map

@@ -15,7 +15,7 @@
           >
             mdi-magnify
           </v-icon>
-          <h2 class="display-1 white--text font-weight-light">Team Leader</h2>
+          <h2 id="credits">Team Leader</h2>
         </v-card-title>
         <v-container>
             <v-img
@@ -43,7 +43,7 @@
     >
       <v-card>
         <v-card-title class="amber lighten-1 justify-end">
-          <h2 class="display-1 mr-3 white--text font-weight-light">UI,UX Programming</h2>
+          <h2 id="credits">UI,UX Programming</h2>
           <v-icon
             dark
             size="42"
@@ -78,7 +78,7 @@
           >
             mdi-email-outline
           </v-icon>
-          <h2 class="display-1 white--text font-weight-light">Database</h2>
+          <h2 id="credits">Database</h2>
         </v-card-title>
         <v-container>
             <v-img
@@ -103,7 +103,7 @@
     >
       <v-card>
         <v-card-title class="red lighten-1 justify-end">
-          <h2 class="display-1 mr-3 white--text font-weight-light"> Software versioning
+          <h2 id="credits"> Software versioning
 using Github</h2>
           <v-icon
             dark
@@ -144,7 +144,7 @@ using Github</h2>
           >
             mdi-phone-in-talk
           </v-icon>
-          <h2 class="display-1 white--text font-weight-light">Testing</h2>
+          <h2 id="credits">Testing</h2>
         </v-card-title>
         <v-container>
             <v-img

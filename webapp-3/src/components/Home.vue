@@ -1,10 +1,12 @@
 <template>
-  <v-hover>
-    <v-card
+<v-app>  
+  <v-hover>    
+    <v-card flat
       slot-scope="{ hover }"
       class="mx-auto"
       color="grey lighten-4"
       max-width="600"
+      id = "pudding"
     >
 
         <article v-for="(location, idx) in locations" :key="idx">
@@ -26,8 +28,8 @@
         >
           <v-icon>book</v-icon>
         </v-btn>
-        <h3 class="display-1 font-weight-light orange--text mb-2">คนอะไรเป็นแฟนหมี</h3>
-        <div class="font-weight-light grey--text title mb-2">มาดูกันว่าคนอะไรเป็นแฟนหมี ?</div>
+        <h3 id="maintitle-th">คนอะไรเป็นแฟนหมี</h3>
+        <div id="description-th">มาดูกันว่าคนอะไรเป็นแฟนหมี ?</div>      
         
       </v-card-text>
 
@@ -38,7 +40,7 @@
     
       <v-card-text
         class="pt-4"
-        style="position: relative;"
+        style="position: relative;"        
       >
         <v-btn to="/cartoon2"
           absolute
@@ -51,22 +53,22 @@
         >
           <v-icon>book</v-icon>
         </v-btn>
-        <h3 class="display-1 font-weight-light orange--text mb-2">จ็อด 8 ริ้ว</h3>
-        <div class="font-weight-light grey--text title mb-2">ล้อเลียนและสะท้อนสังคมไทย</div>
+        <h3 id="maintitle-th">จ็อด 8 ริ้ว</h3>
+        <div id="description-th">ล้อเลียนและสะท้อนสังคมไทย</div>
         
       </v-card-text>
     </v-card>
   </v-hover>
+</v-app>
 </template>
 
 <script>
-import firebase from 'firebase'
 import { db } from '../main'
 export default {
   name: 'Home',
   data () {
     return {
-      locations: [],
+      locations: []
     }
   },
   firestore () {
@@ -85,5 +87,8 @@ export default {
   opacity: .5;
   position: absolute;
   width: 100%;
+}
+#pudding{
+  padding-top: 6em;  
 }
 </style>

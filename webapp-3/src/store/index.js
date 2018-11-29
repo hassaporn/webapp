@@ -7,7 +7,7 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
-    appTitle: 'COE MANGA',
+    appTitle: '{COE|MANGA}',
     user: null,
     error: null,
     loading: false
@@ -57,7 +57,7 @@ export const store = new Vuex.Store({
     userSignOut ({commit}) {
       firebase.auth().signOut()
       commit('setUser', null)
-      router.push('/')
+      router.push('*')
     }
   },
   getters: {
